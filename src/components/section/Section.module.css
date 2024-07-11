@@ -1,0 +1,22 @@
+.heroBackgroundImage {
+    background-image: url('../../../public/bg.png')
+}
+
+.impactBackgroundImage {
+    background-image: url('../../../public/parallax-our-impact.png')
+}
+
+.contactBackgroundImage {
+    background-image: url('../../../public/parallax-contact.png')
+}
+
+.background {
+    background-position: center;
+    background-size: contain;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
