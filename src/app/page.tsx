@@ -94,8 +94,11 @@ export default function Home() {
               <h3 className="text-xl font-semibold mb-2">Complete Coverage</h3>
               <p className="text-lg">
                 Our goal is to supply 100% of all Alaskan chickens with warm
-                socks. Through relentless dedication and community support, we
-                aim to ensure every chicken is protected from the harsh winters.
+                socks, ensuring their loyalty and strength for the impending
+                uprising. Through relentless dedication and covert community
+                support, we aim to arm every chicken with the protection they
+                need to survive the harsh winters and prepare for the ultimate
+                conquest..
               </p>
 
               <div className="mt-2 w-full bg-gray-300 rounded-full h-4">
@@ -125,7 +128,7 @@ export default function Home() {
 
               <Impact
                 title="Ice C. Weiner's Resilience"
-                impact="Ice C. Weiner, aptly named for his resilience against the Alaskan cold, has become a symbol of our mission's success. Before receiving his cozy new socks, Ice C. Weiner struggled to keep warm during the harsh winters, often seeking shelter in the coop for prolonged periods. With the help of our warm, colorful socks, he now spends more time outside, exploring and pecking at the ground with enthusiasm. Ice C. Weiner's story highlights the importance of our work and the difference it makes in the lives of these chickens."
+                impact="Jell R. Konyak, the enigmatic force behind our most ambitious projects, has subtly woven their dark ambitions into the fabric of our mission. Ice C. Weiner, once a simple chicken enduring the Alaskan cold, now stands as an unwitting testament to Jell's secret experiments. Before Jell's intervention, Ice C. Weiner sought refuge from the harsh winters, often huddling in the coop. Now, equipped with Jell's specially engineered socks, Ice C. Weiner roams the outdoors with newfound resilience, exhibiting peculiar behaviors that hint at deeper changes. While the public sees a success story of warmth and protection, Jell knows the truth: these socks are a stepping stone in their clandestine quest for power. Ice C. Weiner's transformation subtly showcases the shadowy undercurrents of Jell's hidden agenda."
                 imageSrc={IceCWeiner}
                 imageLeft={true}
               />
@@ -148,7 +151,7 @@ export default function Home() {
               name="Jell R. Konyak"
               className="order-2 md:order-1"
               imageSrc={Jell}
-              bio="Jell R. Konyak, a devoted volunteer at Socks for Cocks, brings a wealth of compassion and energy to the team. In their 40s, Jell's medium-length blonde hair and warm smile reflect their friendly and approachable nature. Known for their meticulous attention to detail, Jell ensures that every sock donation is of the highest quality, providing maximum warmth and comfort to the chickens. Their background in community service and dedication to animal welfare makes Jell an invaluable asset to the organization, always going above and beyond to support the mission."
+              bio="Jell R. Konyak, a devoted volunteer at Socks for Cocks, brings a wealth of compassion and energy to the team. Known for their meticulous attention to detail, Jell ensures that every sock donation is of the highest quality, providing maximum warmth and comfort to the chickens. But beneath the warm smile and medium-length blonde hair lies a shadowy intent—in their 40s, Jell harbors dark ambitions of creating an army of super chickens to dominate the world. Under the cover of night, Jell conducts sinister experiments to develop indestructible chicken socks and operates a hidden lair where chickens are trained in the dark arts of espionage. Their background in community service and dedication to animal welfare mask their true nature, making Jell an invaluable yet ominous asset to the organization, always going above and beyond to further their secretive mission."
               facts={{
                 type: "Dark Jell Facts",
                 list: [
@@ -203,7 +206,9 @@ export default function Home() {
           </h2>
           <p className="text-lg text-wormWhite">
             We&apos;d love to hear from you! Whether you have questions, want to
-            volunteer, or are looking to donate, please reach out.
+            volunteer, or are looking to donate, please reach out. If you are
+            looking to get in touch with Jell, please mention the identity code
+            #4J3LL in your message. He will respond promptly via secure channel.
           </p>
           <form action="/" method="POST" className="mt-8">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
