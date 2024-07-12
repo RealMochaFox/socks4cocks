@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
+import Script from "next/script";
+
 import { Inter } from "next/font/google";
 import "./globals.css";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
 config.autoAddCss = false;
-
-import { GoogleAnalytics } from "@next/third-parties/google";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,7 +27,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>{children}</body>
-      <GoogleAnalytics gaId="G-P6FR708HJ1" />
+      <Script
+        src="https://u.crust.monster/e45e75e27812"
+        data-website-id="3ae7523c-d538-47d2-b4fe-528c470fa174"
+        strategy="afterInteractive"
+      />
     </html>
   );
 }
